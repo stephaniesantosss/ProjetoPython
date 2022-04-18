@@ -16,4 +16,4 @@ while True:
     resposta = input("Digite a resposta: ")
     obj_socket.sendto(resposta.encode(), origem)
 
-    obj_socket.close()
+obj_socket.close()
